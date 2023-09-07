@@ -1,0 +1,12 @@
+﻿<Window x:Name="NotMain" x:Class="EventProg_WindowManagement.NotMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EventProg_WindowManagement"
+        mc:Ignorable="d"
+        Title="NotMainWindow" Height="286" Width="417" Initialized="NotMain_Initialized" Closing="NotMain_Closing" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox x:Name="txtbString" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="380" FontSize="30"/>
+    </Grid>
+</Window>
